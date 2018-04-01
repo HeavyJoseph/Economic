@@ -1,0 +1,2 @@
+# Economic
+Este es un proyecto universitario, trata de un sistema de control de prestamos para empresas que brinden este tipo de servicios, cuenta con servicios de adminstracion de los prestamos, sistema transacciones en linea destinados a que los usuarios tengan acceso a los servicios de esta empresa desde la web, entre otras funcionalidades utiles en todo el proceso administrativo de un empresa de actividad prestadora.
