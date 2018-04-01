@@ -1,0 +1,11 @@
+C:\Proyects\UTESA\Economic\Economic.Core\bin\Debug\Economic.Core.dll.config
+C:\Proyects\UTESA\Economic\Economic.Core\bin\Debug\Economic.Core.dll
+C:\Proyects\UTESA\Economic\Economic.Core\bin\Debug\Economic.Core.pdb
+C:\Proyects\UTESA\Economic\Economic.Core\bin\Debug\EntityFramework.dll
+C:\Proyects\UTESA\Economic\Economic.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Proyects\UTESA\Economic\Economic.Core\bin\Debug\EntityFramework.xml
+C:\Proyects\UTESA\Economic\Economic.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Proyects\UTESA\Economic\Economic.Core\obj\Debug\Economic.Core.csprojResolveAssemblyReference.cache
+C:\Proyects\UTESA\Economic\Economic.Core\obj\Debug\Economic.Core.csproj.CoreCompileInputs.cache
+C:\Proyects\UTESA\Economic\Economic.Core\obj\Debug\Economic.Core.dll
+C:\Proyects\UTESA\Economic\Economic.Core\obj\Debug\Economic.Core.pdb
