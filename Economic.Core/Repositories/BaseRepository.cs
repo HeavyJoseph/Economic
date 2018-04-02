@@ -37,7 +37,7 @@ namespace Economic.Core.Repositories
         /// Elimina una Entidad del Repositorio.
         /// </summary>
         /// <param name="Entity">Recibe la enidad a eliminar</param>
-        void Delete(TEntity Entity);
+        void Delete(Expression<Func<TEntity, bool>> expression);
 
         /// <summary>
         /// Establece definitivamente todos los cambios hechos en el Repositorio
@@ -61,7 +61,7 @@ namespace Economic.Core.Repositories
     public abstract class BaseRepository<TEntity> : IBaseRepository<TEntity>
         where TEntity : BaseEntity
     {
-        private EconomicDBContext context;
+        internal EconomicDBContext context;
 
         private DbSet<TEntity> dbSet
         {
@@ -93,9 +93,11 @@ namespace Economic.Core.Repositories
             this.dbSet.Add(Entity);
         }
 
-        public void Delete(TEntity Entity)
+        public void Delete(Expression<Func<TEntity, bool>> expression)
         {
-            this.dbSet.Remove(Entity);
+            var entity = this.Find(expression);
+
+            this.dbSet.Remove(entity);
         }
 
         public void SaveChanges()
