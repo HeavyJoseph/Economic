@@ -49,14 +49,31 @@
   <ItemGroup>
     <Compile Include="EconomicDBContext.cs" />
     <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\Bienes_Declarados.cs" />
+    <Compile Include="Entities\Documentos.cs" />
+    <Compile Include="Entities\Entidades.cs" />
     <Compile Include="Entities\Entidades_Tipos.cs" />
+    <Compile Include="Entities\Prestamos_Detalle_Estados.cs" />
+    <Compile Include="Entities\Prestamos_Estados.cs" />
+    <Compile Include="Entities\Prestamo_Detalle.cs" />
+    <Compile Include="Entities\Prestamo_Master.cs" />
+    <Compile Include="Entities\Usuarios.cs" />
     <Compile Include="Exceptions\BaseException.cs" />
     <Compile Include="Exceptions\BaseRepositoryException.cs" />
     <Compile Include="Map\BaseMap.cs" />
+    <Compile Include="Map\BienesDeclaradosMap.cs" />
+    <Compile Include="Map\DocumentosMap.cs" />
+    <Compile Include="Map\EntidadesMap.cs" />
     <Compile Include="Map\EntidadesTiposMap.cs" />
+    <Compile Include="Map\PrestamoDetalleMap.cs" />
+    <Compile Include="Map\PrestamoMasterMap.cs" />
+    <Compile Include="Map\PrestamosDetalleEstadosMap.cs" />
+    <Compile Include="Map\PrestamosEstadosMap.cs" />
+    <Compile Include="Map\UsuariosMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
-    <Compile Include="Repositories\EntidadesTipoRepository.cs" />
+    <Compile Include="Repositories\EntidadesRepository.cs" />
+    <Compile Include="Repositories\UsuarioRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
