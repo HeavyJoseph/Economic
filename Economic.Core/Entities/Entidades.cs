@@ -14,9 +14,10 @@ namespace Economic.Core.Entities
         public System.DateTime Fecha_Nacimiento { get; set; }
         public string Genero { get; set; }
         public string Correo { get; set; }
-        public string Descripcion_Laboral { get; set; }
-        public string Descripcion_Vivienda { get; set; }
-        public bool Enable { get; set; }
+        public string Nombre_Empresa { get; set; }
+        public string Rol_Empresa { get; set; }
+        public int Telefono_Empresa { get; set; }
+        public int Ingresos { get; set; }
         public string Usuario { get; set; }
         public string Password { get; set; }
     }

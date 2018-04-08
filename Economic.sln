@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Economic.Core", "Economic.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Economic.Test", "Economic.Test\Economic.Test.csproj", "{991978B0-6827-403F-8F19-7271669372BB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{772C948B-1095-425F-B50A-C0B87309D64C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Economic.WEB", "Economic.WEB\Economic.WEB.csproj", "{A2438F45-C250-4CE3-8801-820EE6382DB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,10 @@ Global
 		{991978B0-6827-403F-8F19-7271669372BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{991978B0-6827-403F-8F19-7271669372BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{991978B0-6827-403F-8F19-7271669372BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2438F45-C250-4CE3-8801-820EE6382DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2438F45-C250-4CE3-8801-820EE6382DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2438F45-C250-4CE3-8801-820EE6382DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2438F45-C250-4CE3-8801-820EE6382DB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

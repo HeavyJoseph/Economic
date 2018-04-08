@@ -7,7 +7,6 @@ namespace Economic.Core.Map
     {
         public PrestamoMasterMap()
         {
-            this.Property(x => x.EmpleadoId).HasColumnName("EmpleadoId");
             this.Property(x => x.EstadoId).HasColumnName("EstadoId");
             this.Property(x => x.Fecha_Aprobado).HasColumnName("Fecha_Aprobado");
             this.Property(x => x.Fecha_Solicitud).HasColumnName("Fecha_Solicitud");

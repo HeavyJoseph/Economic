@@ -5,7 +5,7 @@ namespace Economic.Core.Entities
     {
         public int PrestatarioId { get; set; }
         public int FiadorId { get; set; }
-        public int EmpleadoId { get; set; }
+        public int TipoId { get; set; }
         public int Importe { get; set; }
         public int Numero_Cuotas { get; set; }
         public int Interez_Pociento { get; set; }
