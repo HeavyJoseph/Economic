@@ -8,8 +8,6 @@ namespace Economic.Test
         static void Main(string[] args)
         {
             EntidadesRepository rep = new EntidadesRepository();
-
-            Console.WriteLine(rep.Find(x => x.Id == 1).Apellido);
             
             Console.ReadKey();
         }
