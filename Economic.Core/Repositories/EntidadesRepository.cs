@@ -1,19 +1,17 @@
 ﻿
-using Economic.Core.Entities;
-
 namespace Economic.Core.Repositories
 {
-    public class EntidadesRepository : BaseRepository<Entidades>
+    public class EntidadesRepository : BaseRepository<Entities.Entidades>
     {
-        public EntidadesRepository()
+        public void RegistrarEntidad(Entities.Entidades nuevaEntidad)
         {
-            //
+            this.Add(nuevaEntidad);
+            this.SaveChanges();
         }
 
-        //
-        public void EntidadRegister(Entidades entidad, Usuarios usuario)
+        public Entities.Entidades LogIn(string Usuario, string Password)
         {
-            this.Add(entidad);
+            return this.Find(x => x.Usuario == Usuario && x.Password == Password);
         }
     }
 }

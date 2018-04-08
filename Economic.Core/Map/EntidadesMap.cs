@@ -21,6 +21,8 @@ namespace Economic.Core.Map
             this.Property(x => x.Numero_Identidad).HasColumnName("Numero_Identidad");
             this.Property(x => x.Telefono).HasColumnName("Telefono");
             this.Property(x => x.TipoId).HasColumnName("TipoId");
+            this.Property(x => x.Usuario).HasColumnName("Usuario");
+            this.Property(x => x.Password).HasColumnName("Password");
             this.ToTable("Entidades", "WEB");
         }
     }

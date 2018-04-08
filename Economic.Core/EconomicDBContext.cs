@@ -10,8 +10,16 @@ namespace Economic.Core
             Database.SetInitializer<EconomicDBContext>(null);
         }
 
+        public DbSet<Entities.Bienes_Declarados> Bienes_Declarados { get; set; }
+        public DbSet<Entities.Documentos> Documentos { get; set; }
+        public DbSet<Entities.Entidades> Entidades { get; set; }
         public DbSet<Entities.Entidades_Tipos> Entidades_Tipos { get; set; }
-
+        public DbSet<Entities.Personas_Registradas> Personas_Registradas { get; set; }
+        public DbSet<Entities.Prestamos_Detalle_Estados> Prestamos_Detalle_Estados { get; set; }
+        public DbSet<Entities.Prestamos_Estados> Prestamos_Estados { get; set; }
+        public DbSet<Entities.Prestamo_Detalle> Prestamo_Detalle { get; set; }
+        public DbSet<Entities.Prestamo_Master> Prestamo_Master { get; set; }
+        public DbSet<Entities.Usuarios> Usuarios { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

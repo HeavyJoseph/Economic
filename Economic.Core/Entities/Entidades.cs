@@ -17,5 +17,7 @@ namespace Economic.Core.Entities
         public string Descripcion_Laboral { get; set; }
         public string Descripcion_Vivienda { get; set; }
         public bool Enable { get; set; }
+        public string Usuario { get; set; }
+        public string Password { get; set; }
     }
 }
