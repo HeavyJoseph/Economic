@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="en-US">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2018.0.0.379"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "jquery.watch.js", "require.js", "clientesolicitud.css"], "outOfDate":[]};
+</script>
+  
+  <link rel="shortcut icon" href="images/favicon.ico?crc=3941003197"/>
+  <title>ClienteSolicitud</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3769441727"/>
+  <link rel="stylesheet" type="text/css" href="css/master_cliente.css?crc=436899133"/>
+  <link rel="stylesheet" type="text/css" href="css/clientesolicitud.css?crc=3762511508" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_clientesolicitud.css?crc=4074702962"/>
+  <![endif]-->
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script src="https://webfonts.creativecloud.com/roboto:n9,i9:default.js" type="text/javascript"></script>
+    <!--HTML Widget code-->
+  
+		<style>
+.u12668 {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1) inset;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  color: #E2F1F3;
+  height: 45px;
+  width: 100%;
+  opacity:1;
+}
+.u12668:hover .u12668outline-button__line {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.u12668outline-button__lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity:1;
+}
+
+.u12668outline-button__line {
+  background: #E2F1F3;
+  position: absolute;
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.u12668outline-button__line--horizontal {
+  width: 100%;
+  height: 3px;
+  -webkit-transition-delay: 0.27273s;
+          transition-delay: 0.27273s;
+}
+.u12668outline-button__line--vertical {
+  width: 3px;
+  height: 100%;
+  -webkit-transition-delay: none;
+          transition-delay: none;
+}
+.u12668outline-button__line--top {
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(-101%);
+          transform: translateX(-101%);
+}
+.u12668outline-button__line--right {
+  top: 0;
+  right: 0;
+width: 3px;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+.u12668outline-button__line--bottom {
+  bottom: 0;
+  left: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+.u12668outline-button__line--left {
+  top: 0;
+  left: 0;
+  width: 3px;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+</style>
+	
+		<style>
+.u12669 {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1) inset;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  color: #E2F1F3;
+  height: 45px;
+  width: 100%;
+  opacity:1;
+}
+.u12669:hover .u12669outline-button__line {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.u12669outline-button__lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity:1;
+}
+
+.u12669outline-button__line {
+  background: #E2F1F3;
+  position: absolute;
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.u12669outline-button__line--horizontal {
+  width: 100%;
+  height: 3px;
+  -webkit-transition-delay: 0.27273s;
+          transition-delay: 0.27273s;
+}
+.u12669outline-button__line--vertical {
+  width: 3px;
+  height: 100%;
+  -webkit-transition-delay: none;
+          transition-delay: none;
+}
+.u12669outline-button__line--top {
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(-101%);
+          transform: translateX(-101%);
+}
+.u12669outline-button__line--right {
+  top: 0;
+  right: 0;
+width: 3px;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+.u12669outline-button__line--bottom {
+  bottom: 0;
+  left: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+.u12669outline-button__line--left {
+  top: 0;
+  left: 0;
+  width: 3px;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+</style>
+	
+		<style>
+.u12670 {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1) inset;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  color: #E2F1F3;
+  height: 45px;
+  width: 100%;
+  opacity:1;
+}
+.u12670:hover .u12670outline-button__line {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.u12670outline-button__lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity:1;
+}
+
+.u12670outline-button__line {
+  background: #E2F1F3;
+  position: absolute;
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.u12670outline-button__line--horizontal {
+  width: 100%;
+  height: 3px;
+  -webkit-transition-delay: 0.27273s;
+          transition-delay: 0.27273s;
+}
+.u12670outline-button__line--vertical {
+  width: 3px;
+  height: 100%;
+  -webkit-transition-delay: none;
+          transition-delay: none;
+}
+.u12670outline-button__line--top {
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(-101%);
+          transform: translateX(-101%);
+}
+.u12670outline-button__line--right {
+  top: 0;
+  right: 0;
+width: 3px;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+.u12670outline-button__line--bottom {
+  bottom: 0;
+  left: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+.u12670outline-button__line--left {
+  top: 0;
+  left: 0;
+  width: 3px;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+</style>
+	
+ </head>
+ <body class="museBGSize">
+
+  <div class="clearfix borderbox" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pu15448"><!-- group -->
+    <div class="shadow" id="u15448"><!-- simple frame --></div>
+    <div class="clearfix" id="u15449-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+     <p>ACCESOS RAPIDOS</p>
+    </div>
+    <a class="nonblock nontext museBGSize" id="u15450" href="tarjetaform.html"><!-- simple frame --></a>
+    <a class="nonblock nontext museBGSize" id="u15451" href="pagoprestamo.html"><!-- simple frame --></a>
+    <a class="nonblock nontext museBGSize" id="u15452" href="movimientoscuenta.html"><!-- simple frame --></a>
+    <a class="nonblock nontext museBGSize" id="u15453" href="fiadorform.html"><!-- simple frame --></a>
+    <a class="nonblock nontext clearfix" id="u15454-4" href="fiadorform.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>AGREGAR FIADOR SOLIDARIO</p></a>
+    <a class="nonblock nontext clearfix" id="u15455-6" href="tarjetaform.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>AGREGAR TARJETA DE</p><p>CREDITO/DEBITO</p></a>
+    <a class="nonblock nontext clearfix" id="u15456-4" href="pagoprestamo.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>PAGO DE PRESTAMO</p></a>
+    <a class="nonblock nontext clearfix" id="u15457-4" href="movimientoscuenta.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>&nbsp;MOVIMIENTOS DE LA CUENTA</p></a>
+    <a class="nonblock nontext museBGSize" id="u17496" href="clienteversolicitudes.html"><!-- simple frame --></a>
+    <a class="nonblock nontext clearfix" id="u17499-4" href="clienteversolicitudes.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>VER SOLICITUDES</p></a>
+    <a class="nonblock nontext museBGSize" id="u17686" href="politicaintereses.html"><!-- simple frame --></a>
+    <a class="nonblock nontext clearfix" id="u17687-6" href="politicaintereses.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>POLITICA/PRESTAMOS/</p><p>INTERESES</p></a>
+    <div class="browser_width" id="u12663-bw">
+     <div id="u12663"><!-- simple frame --></div>
+    </div>
+    <div class="museBGSize" id="u12664"><!-- simple frame --></div>
+    <div class="clearfix" id="u12665-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+     <p>ECONOMIC</p>
+    </div>
+    <div class="clip_frame" id="u12666"><!-- image -->
+     <img class="block" id="u12666_img" src="images/finantech-economic-crop-u12666.png?crc=3962287299" alt="" width="375" height="56"/>
+    </div>
+    <div class="size_fixed" id="u12668" data-sizePolicy="fixed" data-pintopage="topright"><!-- custom html -->
+     
+<a href="cliente.html" style="cursor: pointer">
+<button class="u12668">
+  INICIO
+  <span class="u12668outline-button__lines">
+    <span class="u12668outline-button__line u12668outline-button__line--horizontal u12668outline-button__line--top"></span>
+    <span class="u12668outline-button__line u12668outline-button__line--vertical u12668outline-button__line--right"></span>
+    <span class="u12668outline-button__line u12668outline-button__line--horizontal u12668outline-button__line--bottom"></span>
+    <span class="u12668outline-button__line u12668outline-button__line--vertical u12668outline-button__line--left"></span>
+   </span>
+</button>
+</a>
+
+    </div>
+    <div class="size_fixed" id="u12669" data-sizePolicy="fixed" data-pintopage="topright"><!-- custom html -->
+     
+<a href="pagoprestamo.html" style="cursor: pointer">
+<button class="u12669">
+  PAGOS
+  <span class="u12669outline-button__lines">
+    <span class="u12669outline-button__line u12669outline-button__line--horizontal u12669outline-button__line--top"></span>
+    <span class="u12669outline-button__line u12669outline-button__line--vertical u12669outline-button__line--right"></span>
+    <span class="u12669outline-button__line u12669outline-button__line--horizontal u12669outline-button__line--bottom"></span>
+    <span class="u12669outline-button__line u12669outline-button__line--vertical u12669outline-button__line--left"></span>
+   </span>
+</button>
+</a>
+
+    </div>
+    <div class="size_fixed" id="u12670" data-sizePolicy="fixed" data-pintopage="topright"><!-- custom html -->
+     
+<a href="clientesolicitud.html" style="cursor: pointer">
+<button class="u12670">
+  SOLICITUD
+  <span class="u12670outline-button__lines">
+    <span class="u12670outline-button__line u12670outline-button__line--horizontal u12670outline-button__line--top"></span>
+    <span class="u12670outline-button__line u12670outline-button__line--vertical u12670outline-button__line--right"></span>
+    <span class="u12670outline-button__line u12670outline-button__line--horizontal u12670outline-button__line--bottom"></span>
+    <span class="u12670outline-button__line u12670outline-button__line--vertical u12670outline-button__line--left"></span>
+   </span>
+</button>
+</a>
+
+    </div>
+    <div class="rounded-corners" id="u12671"><!-- content -->
+     <div class="fluid_height_spacer"></div>
+    </div>
+    <div class="clearfix" id="u12672-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+     <p>FULL NAME</p>
+    </div>
+    <a class="nonblock nontext clip_frame" id="u12673" href="clienteconfiguracion.html"><!-- image --><img class="block" id="u12673_img" src="images/llave-inglesa-fendas.png?crc=213872345" alt="" data-heightwidthratio="1" data-image-width="27" data-image-height="27"/></a>
+    <div class="browser_width" id="u12612-bw">
+     <div id="u12612"><!-- simple frame --></div>
+    </div>
+    <div class="clip_frame" id="u12613"><!-- svg -->
+     <img class="svg" id="u12614" src="images/logo_facebook.svg?crc=3886503056" width="10" height="26" alt="" data-mu-svgfallback="images/logo_facebook_poster_.png?crc=4113105136"/>
+    </div>
+    <div class="clip_frame" id="u12615"><!-- svg -->
+     <img class="svg" id="u12616" src="images/logo_twitter.svg?crc=3780217309" width="25" height="26" alt="" data-mu-svgfallback="images/logo_twitter_poster_.png?crc=249498307"/>
+    </div>
+    <div class="pointer_cursor Button rounded-corners clearfix" id="buttonu12617" data-visibility="changed" style="visibility:hidden"><!-- container box -->
+     <a class="block" href="contacto.html"><!-- Block link tag --></a>
+     <a class="nonblock nontext clearfix grpelem" id="u12618-4" href="contacto.html" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>CONTACTO</p></a>
+    </div>
+    <div class="pointer_cursor Button rounded-corners clearfix" id="buttonu12619" data-visibility="changed" style="visibility:hidden"><!-- container box -->
+     <a class="block" href="nosotros.html"><!-- Block link tag --></a>
+     <a class="nonblock nontext clearfix grpelem" id="u12620-4" href="nosotros.html" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>NOSOTROS</p></a>
+    </div>
+    <div class="pointer_cursor Button rounded-corners clearfix" id="buttonu12621" data-visibility="changed" style="visibility:hidden"><!-- container box -->
+     <a class="block" href="relaciones.html"><!-- Block link tag --></a>
+     <a class="nonblock nontext clearfix grpelem" id="u12622-4" href="relaciones.html" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>RELACIONES</p></a>
+    </div>
+    <div class="pointer_cursor Button rounded-corners clearfix" id="buttonu12623" data-visibility="changed" style="visibility:hidden"><!-- container box -->
+     <a class="block" href="index.html"><!-- Block link tag --></a>
+     <a class="nonblock nontext clearfix grpelem" id="u12624-4" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>INICIO</p></a>
+    </div>
+    <div class="Button rounded-corners clearfix" id="buttonu12625" data-visibility="changed" style="visibility:hidden"><!-- container box -->
+     <div class="clearfix grpelem" id="u12626-4" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
+      <p>NOTICIAS</p>
+     </div>
+    </div>
+   </div>
+   <div class="clearfix grpelem" id="pu16844"><!-- group -->
+    <div class="clearfix grpelem" id="u16844"><!-- column -->
+     <div class="clearfix colelem" id="u15438-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p>Fiador (Cargar datos):</p>
+     </div>
+     <div class="colelem" id="u15434"><!-- custom html -->
+      <select>
+
+</select>
+
+     </div>
+    </div>
+    <div class="clearfix grpelem" id="u17493"><!-- group -->
+     <div class="clearfix grpelem" id="u16865"><!-- group -->
+      <div class="clearfix grpelem" id="u16841"><!-- column -->
+       <div class="clearfix colelem" id="u14904-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+        <p>SOLICITUD DE PRESTAMO</p>
+       </div>
+       <div class="clearfix colelem" id="u14981-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+        <p>Informacion del Prestamo</p>
+       </div>
+       <div class="clearfix colelem" id="pu14978"><!-- group -->
+        <div class="clearfix grpelem" id="u14978"><!-- group -->
+         <form class="form-grp clearfix grpelem" id="widgetu14685" method="post" enctype="multipart/form-data" action="scripts/form-u14685.php"><!-- none box -->
+          <div class="position_content" id="widgetu14685_position_content">
+           <div class="fld-grp clearfix colelem" id="widgetu14714" data-required="true"><!-- none box -->
+            <div class="clearfix colelem" id="pu14715-4"><!-- group -->
+             <label class="fld-label actAsDiv clearfix grpelem" id="u14715-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu14714_input"><!-- content --><span class="actAsPara">Monto Solicitado:</span></label>
+             <div class="fld-message clearfix grpelem" id="u14717-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+              <p>Required</p>
+             </div>
+            </div>
+            <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u14716-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u14716-3"><input class="wrapped-input" type="text" id="widgetu14714_input" name="custom_U14714" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu14714_prompt" for="widgetu14714_input"><span class="actAsPara">Enter Text</span></label></div></span>
+           </div>
+           <div class="fld-grp clearfix colelem" id="widgetu14944" data-required="true"><!-- none box -->
+            <div class="clearfix colelem" id="pu14945-4"><!-- group -->
+             <label class="fld-label actAsDiv clearfix grpelem" id="u14945-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu14944_input"><!-- content --><span class="actAsPara">Destino del Prestamo:</span></label>
+             <div class="fld-message clearfix grpelem" id="u14947-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+              <p>Required</p>
+             </div>
+            </div>
+            <span class="fld-textarea actAsDiv clearfix colelem" id="u14946-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u14946-3"><textarea class="wrapped-input" id="widgetu14944_input" name="custom_U14944" tabindex="2"></textarea><label class="wrapped-input fld-prompt" id="widgetu14944_prompt" for="widgetu14944_input"><span class="actAsPara">Enter Your Message</span></label></div></span>
+           </div>
+           <div class="clearfix colelem" id="pwidgetu14687"><!-- group -->
+            <div class="fld-grp clearfix grpelem" id="widgetu14687" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu14689-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u14689-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu14687_input"><!-- content --><span class="actAsPara">Nombre:</span></label>
+              <div class="fld-message clearfix grpelem" id="u14688-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u14690-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u14690-3"><input class="wrapped-input" type="text" spellcheck="false" id="widgetu14687_input" name="custom_U14687" tabindex="3"/><label class="wrapped-input fld-prompt" id="widgetu14687_prompt" for="widgetu14687_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+            <div class="fld-grp clearfix grpelem" id="widgetu14726" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu14729-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u14729-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu14726_input"><!-- content --><span class="actAsPara">Apellidos:</span></label>
+              <div class="fld-message clearfix grpelem" id="u14727-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u14728-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u14728-3"><input class="wrapped-input" type="text" id="widgetu14726_input" name="custom_U14726" tabindex="4"/><label class="wrapped-input fld-prompt" id="widgetu14726_prompt" for="widgetu14726_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+           </div>
+           <div class="clearfix colelem" id="pwidgetu14708"><!-- group -->
+            <div class="fld-grp clearfix grpelem" id="widgetu14708" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu14711-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u14711-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu14708_input"><!-- content --><span class="actAsPara">Tel. No.:</span></label>
+              <div class="fld-message clearfix grpelem" id="u14709-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u14710-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u14710-3"><input class="wrapped-input" type="text" id="widgetu14708_input" name="custom_U14708" tabindex="5"/><label class="wrapped-input fld-prompt" id="widgetu14708_prompt" for="widgetu14708_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+            <div class="fld-grp clearfix grpelem" id="widgetu14987" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu14989-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u14989-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu14987_input"><!-- content --><span class="actAsPara">Email:</span></label>
+              <div class="fld-message clearfix grpelem" id="u14988-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u14990-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u14990-3"><input class="wrapped-input" type="text" id="widgetu14987_input" name="custom_U14987" tabindex="6"/><label class="wrapped-input fld-prompt" id="widgetu14987_prompt" for="widgetu14987_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+           </div>
+           <div class="clearfix colelem" id="pwidgetu14999"><!-- group -->
+            <div class="fld-grp clearfix grpelem" id="widgetu14999" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15000-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15000-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu14999_input"><!-- content --><span class="actAsPara">Cedula:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15001-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15002-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15002-3"><input class="wrapped-input" type="text" id="widgetu14999_input" name="custom_U14999" tabindex="7"/><label class="wrapped-input fld-prompt" id="widgetu14999_prompt" for="widgetu14999_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+            <div class="fld-grp clearfix grpelem" id="widgetu15011" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15014-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15014-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15011_input"><!-- content --><span class="actAsPara">Fecha de Nacimiento:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15012-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15013-3" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15013-2"><input class="wrapped-input" type="date" id="widgetu15011_input" name="custom_U15011" tabindex="8"/></div></span>
+            </div>
+           </div>
+           <div class="fld-grp clearfix colelem" id="widgetu15091" data-required="true"><!-- none box -->
+            <div class="clearfix colelem" id="pu15093-4"><!-- group -->
+             <label class="fld-label actAsDiv clearfix grpelem" id="u15093-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15091_input"><!-- content --><span class="actAsPara">Direccion:</span></label>
+             <div class="fld-message clearfix grpelem" id="u15094-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+              <p>Required</p>
+             </div>
+            </div>
+            <span class="fld-textarea actAsDiv clearfix colelem" id="u15092-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15092-3"><textarea class="wrapped-input" id="widgetu15091_input" name="custom_U15091" tabindex="9"></textarea><label class="wrapped-input fld-prompt" id="widgetu15091_prompt" for="widgetu15091_input"><span class="actAsPara">Enter Your Message</span></label></div></span>
+           </div>
+           <div class="clearfix colelem" id="pwidgetu15023"><!-- group -->
+            <div class="fld-grp clearfix grpelem" id="widgetu15023" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15025-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15025-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15023_input"><!-- content --><span class="actAsPara">Empresa:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15024-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15026-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15026-3"><input class="wrapped-input" type="text" id="widgetu15023_input" name="custom_U15023" tabindex="10"/><label class="wrapped-input fld-prompt" id="widgetu15023_prompt" for="widgetu15023_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+            <div class="fld-grp clearfix grpelem" id="widgetu15047" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15050-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15050-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15047_input"><!-- content --><span class="actAsPara">Telefono:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15048-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15049-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15049-3"><input class="wrapped-input" type="text" id="widgetu15047_input" name="custom_U15047" tabindex="11"/><label class="wrapped-input fld-prompt" id="widgetu15047_prompt" for="widgetu15047_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+           </div>
+           <div class="clearfix colelem" id="pwidgetu15035"><!-- group -->
+            <div class="fld-grp clearfix grpelem" id="widgetu15035" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15037-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15037-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15035_input"><!-- content --><span class="actAsPara">Puesto:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15036-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15038-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15038-3"><input class="wrapped-input" type="text" id="widgetu15035_input" name="custom_U15035" tabindex="12"/><label class="wrapped-input fld-prompt" id="widgetu15035_prompt" for="widgetu15035_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+            <div class="fld-grp clearfix grpelem" id="widgetu15071" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15072-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15072-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15071_input"><!-- content --><span class="actAsPara">Ingresos:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15074-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15073-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15073-3"><input class="wrapped-input" type="text" id="widgetu15071_input" name="custom_U15071" tabindex="13"/><label class="wrapped-input fld-prompt" id="widgetu15071_prompt" for="widgetu15071_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+           </div>
+           <div class="fld-grp clearfix colelem" id="widgetu15335" data-required="true"><!-- none box -->
+            <div class="clearfix colelem" id="pu15337-4"><!-- group -->
+             <label class="fld-label actAsDiv clearfix grpelem" id="u15337-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15335_input"><!-- content --><span class="actAsPara">Descripcion Garantia (Si es Hipotecario):</span></label>
+             <div class="fld-message clearfix grpelem" id="u15336-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+              <p>Required</p>
+             </div>
+            </div>
+            <span class="fld-textarea actAsDiv clearfix colelem" id="u15338-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15338-3"><textarea class="wrapped-input" id="widgetu15335_input" name="custom_U15335" tabindex="14"></textarea><label class="wrapped-input fld-prompt" id="widgetu15335_prompt" for="widgetu15335_input"><span class="actAsPara">Enter Your Message</span></label></div></span>
+           </div>
+           <div class="clearfix colelem" id="pwidgetu15118"><!-- group -->
+            <div class="fld-grp clearfix grpelem" id="widgetu15118" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15121-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15121-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15118_input"><!-- content --><span class="actAsPara">&nbsp;Nombre:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15119-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15120-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15120-3"><input class="wrapped-input" type="text" id="widgetu15118_input" name="custom_U15118" tabindex="15"/><label class="wrapped-input fld-prompt" id="widgetu15118_prompt" for="widgetu15118_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+            <div class="fld-grp clearfix grpelem" id="widgetu17054" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu17056-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u17056-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu17054_input"><!-- content --><span class="actAsPara">Apellidos:</span></label>
+              <div class="fld-message clearfix grpelem" id="u17055-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u17057-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u17057-3"><input class="wrapped-input" type="text" id="widgetu17054_input" name="custom_U17054" tabindex="16"/><label class="wrapped-input fld-prompt" id="widgetu17054_prompt" for="widgetu17054_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+           </div>
+           <div class="clearfix colelem" id="pwidgetu15154"><!-- group -->
+            <div class="fld-grp clearfix grpelem" id="widgetu15154" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15155-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15155-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15154_input"><!-- content --><span class="actAsPara">Cedula:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15156-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15157-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15157-3"><input class="wrapped-input" type="text" id="widgetu15154_input" name="custom_U15154" tabindex="17"/><label class="wrapped-input fld-prompt" id="widgetu15154_prompt" for="widgetu15154_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+            <div class="fld-grp clearfix grpelem" id="widgetu15130" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15131-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15131-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15130_input"><!-- content --><span class="actAsPara">Tel. No.:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15132-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15133-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15133-3"><input class="wrapped-input" type="text" id="widgetu15130_input" name="custom_U15130" tabindex="18"/><label class="wrapped-input fld-prompt" id="widgetu15130_prompt" for="widgetu15130_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+           </div>
+           <div class="clearfix colelem" id="pwidgetu17066"><!-- group -->
+            <div class="fld-grp clearfix grpelem" id="widgetu17066" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu17068-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u17068-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu17066_input"><!-- content --><span class="actAsPara">Celular No.:</span></label>
+              <div class="fld-message clearfix grpelem" id="u17067-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u17069-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u17069-3"><input class="wrapped-input" type="text" id="widgetu17066_input" name="custom_U17066" tabindex="20"/><label class="wrapped-input fld-prompt" id="widgetu17066_prompt" for="widgetu17066_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+            <div class="fld-grp clearfix grpelem" id="widgetu17240" data-required="true" data-type="radiogroup"><!-- none box -->
+             <div class="clearfix colelem" id="pu17242-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u17242-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><span class="actAsPara">Sexo:</span></label>
+              <div class="fld-message clearfix grpelem" id="u17241-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <div class="clearfix colelem" id="pwidgetu17251"><!-- group -->
+              <div class="fld-grp clearfix grpelem" id="widgetu17251" data-required="false" data-type="radio"><!-- none box -->
+               <div class="fld-radiobutton museBGSize grpelem" id="u17257"><!-- simple frame -->
+                <input class="wrapped-input" type="radio" value="M" spellcheck="false" id="widgetu17251_input" name="custom_U17240" tabindex="19"/>
+                <label for="widgetu17251_input"></label>
+               </div>
+               <label class="fld-label actAsDiv clearfix grpelem" id="u17252-4" for="widgetu17251_input" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft"><!-- content --><span class="actAsPara">M</span></label>
+              </div>
+              <div class="fld-grp clearfix grpelem" id="widgetu17292" data-required="false" data-type="radio"><!-- none box -->
+               <div class="fld-radiobutton museBGSize grpelem" id="u17294"><!-- simple frame -->
+                <input class="wrapped-input" type="radio" value="F" spellcheck="false" id="widgetu17292_input" name="custom_U17240" tabindex="19"/>
+                <label for="widgetu17292_input"></label>
+               </div>
+               <label class="fld-label actAsDiv clearfix grpelem" id="u17293-4" for="widgetu17292_input" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft"><!-- content --><span class="actAsPara">F</span></label>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="clearfix colelem" id="pwidgetu15347"><!-- group -->
+            <div class="fld-grp clearfix grpelem" id="widgetu15347" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15349-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15349-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15347_input"><!-- content --><span class="actAsPara">Direccion:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15348-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-textarea actAsDiv clearfix colelem" id="u15350-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15350-3"><textarea class="wrapped-input" id="widgetu15347_input" name="custom_U15347" tabindex="21"></textarea><label class="wrapped-input fld-prompt" id="widgetu15347_prompt" for="widgetu15347_input"><span class="actAsPara">Enter Your Message</span></label></div></span>
+            </div>
+            <div class="fld-grp clearfix grpelem" id="widgetu15142" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15145-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15145-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15142_input"><!-- content --><span class="actAsPara">Fecha de Nacimiento:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15143-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15144-3" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15144-2"><input class="wrapped-input" type="date" id="widgetu15142_input" name="custom_U15142" tabindex="22"/></div></span>
+            </div>
+           </div>
+           <div class="fld-grp clearfix colelem" id="widgetu17301" data-required="true"><!-- none box -->
+            <div class="clearfix colelem" id="pu17303-4"><!-- group -->
+             <label class="fld-label actAsDiv clearfix grpelem" id="u17303-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu17301_input"><!-- content --><span class="actAsPara">Email:</span></label>
+             <div class="fld-message clearfix grpelem" id="u17302-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+              <p>Required</p>
+             </div>
+            </div>
+            <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u17304-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u17304-3"><input class="wrapped-input" type="text" id="widgetu17301_input" name="custom_U17301" tabindex="23"/><label class="wrapped-input fld-prompt" id="widgetu17301_prompt" for="widgetu17301_input"><span class="actAsPara">Enter Text</span></label></div></span>
+           </div>
+           <div class="clearfix colelem" id="pwidgetu15359"><!-- group -->
+            <div class="fld-grp clearfix grpelem" id="widgetu15359" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15360-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15360-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15359_input"><!-- content --><span class="actAsPara">Trabajo:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15361-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15362-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15362-3"><input class="wrapped-input" type="text" id="widgetu15359_input" name="custom_U15359" tabindex="24"/><label class="wrapped-input fld-prompt" id="widgetu15359_prompt" for="widgetu15359_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+            <div class="fld-grp clearfix grpelem" id="widgetu15371" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15372-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15372-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15371_input"><!-- content --><span class="actAsPara">Telefono:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15374-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15373-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15373-3"><input class="wrapped-input" type="text" id="widgetu15371_input" name="custom_U15371" tabindex="25"/><label class="wrapped-input fld-prompt" id="widgetu15371_prompt" for="widgetu15371_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+           </div>
+           <div class="clearfix colelem" id="pwidgetu15383"><!-- group -->
+            <div class="fld-grp clearfix grpelem" id="widgetu15383" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15384-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15384-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15383_input"><!-- content --><span class="actAsPara">Puesto:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15386-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15385-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15385-3"><input class="wrapped-input" type="text" id="widgetu15383_input" name="custom_U15383" tabindex="26"/><label class="wrapped-input fld-prompt" id="widgetu15383_prompt" for="widgetu15383_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+            <div class="fld-grp clearfix grpelem" id="widgetu15395" data-required="true"><!-- none box -->
+             <div class="clearfix colelem" id="pu15397-4"><!-- group -->
+              <label class="fld-label actAsDiv clearfix grpelem" id="u15397-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" for="widgetu15395_input"><!-- content --><span class="actAsPara">Ingreso:</span></label>
+              <div class="fld-message clearfix grpelem" id="u15398-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+               <p>Required</p>
+              </div>
+             </div>
+             <span class="fld-input NoWrap actAsDiv clearfix colelem" id="u15396-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u15396-3"><input class="wrapped-input" type="text" id="widgetu15395_input" name="custom_U15395" tabindex="27"/><label class="wrapped-input fld-prompt" id="widgetu15395_prompt" for="widgetu15395_input"><span class="actAsPara">Enter Text</span></label></div></span>
+            </div>
+           </div>
+           <div class="clearfix colelem" id="pu14751-4"><!-- group -->
+            <div class="clearfix grpelem" id="u14751-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+             <p>Submitting Form...</p>
+            </div>
+            <div class="clearfix grpelem" id="u14686-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+             <p>The server encountered an error.</p>
+            </div>
+            <div class="clearfix grpelem" id="u14712-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+             <p>Form received.</p>
+            </div>
+            <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u14713-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" type="submit" value="Solicitar" tabindex="28"><!-- content -->
+             <div style="margin-top:-11px;height:11px;">
+              <p>Solicitar</p>
+             </div>
+            </button>
+           </div>
+          </div>
+         </form>
+         <div class="clearfix grpelem" id="u14962"><!-- column -->
+          <div class="clearfix colelem" id="u14956-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+           <p>Plazo:</p>
+          </div>
+          <div class="colelem" id="u14940"><!-- custom html -->
+           <select>
+  <option value="12">Corto (12 Meses)</option>
+  <option value="24">Mediano (24 Meses)</option>
+  <option value="36">Largo (36 Meses)</option>
+</select>
+
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="u14975"><!-- column -->
+          <div class="clearfix colelem" id="u14969-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+           <p>Tipo de Prestamo:</p>
+          </div>
+          <div class="colelem" id="u14965"><!-- custom html -->
+           <select>
+  <option value="PrestamoPersonal">Prestamo Personal</option>
+  <option value="PrestamoComercial">Prestamo Comercial</option>
+  <option value="PrestamoHipotecario">Prestamo Hipotecario</option>
+</select>
+
+          </div>
+         </div>
+        </div>
+        <div class="clearfix grpelem" id="u14984-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+         <p>Datos del Cliente</p>
+        </div>
+        <div class="clearfix grpelem" id="u15103-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+         <p>Datos Laborales</p>
+        </div>
+        <div class="clearfix grpelem" id="u15166-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+         <p>Sobre su Garantia</p>
+        </div>
+        <div class="clearfix grpelem" id="u16838"><!-- column -->
+         <div class="clearfix colelem" id="u15332-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+          <p>Tipo:</p>
+         </div>
+         <div class="colelem" id="u15328"><!-- custom html -->
+          <select>
+  <option value="Solidario">Solidario</option>
+  <option value="Hipotecario">Hipotecario</option>
+</select>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix grpelem" id="u16862"><!-- column -->
+       <div class="clearfix colelem" id="u16855-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+        <p>Tipo de Hipoteca:</p>
+       </div>
+       <div class="colelem" id="u16858"><!-- custom html -->
+        <select>
+  <option value="None">None</option>
+  <option value="Inmueble">Inmueble</option>
+  <option value="Mueble">Mueble</option>
+  <option value="Vehiculo">Vehiculo</option>
+</select>
+
+       </div>
+      </div>
+     </div>
+     <div class="grpelem" id="u17489"><!-- custom html -->
+      <label for="Adjuntar">Adjuntar un archivo</label>
+    <input type="file" id="AdjuntarArchivo">
+
+     </div>
+    </div>
+   </div>
+   <div class="verticalspacer" data-offset-top="1816" data-content-above-spacer="1814" data-content-below-spacer="107" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/radiobuttonunchecked.png?crc=3976871150" alt=""/>
+   <img class="preload" src="images/radiobuttonuncheckedrollover.png?crc=4276313674" alt=""/>
+   <img class="preload" src="images/radiobuttonuncheckedmousedown.png?crc=54863585" alt=""/>
+   <img class="preload" src="images/radiobuttonchecked.png?crc=4193302265" alt=""/>
+   <img class="preload" src="images/radiobuttoncheckedrollover.png?crc=88928956" alt=""/>
+   <img class="preload" src="images/radiobuttoncheckedmousedown.png?crc=4280357799" alt=""/>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide weather to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
+l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){g(!0)},5E3):g()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","webpro","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#widgetu14685', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu14685 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=4157109226" type="text/javascript" async data-main="scripts/museconfig.js?crc=380897831" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+<script>
+
+</script>
+	
+   </body>
+</html>

@@ -1,0 +1,377 @@
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="economic.com" resolutions="1x" timestamp="1522289410368">
+  <folder name="css">
+    <file name="site_global.css" crc="3769441727"/>
+    <file name="master_a-p_g_-maestra.css" crc="4185365466" ref="contacto:index:nosotros:relaciones"/>
+    <file name="nomq_preview_master_a-p_g_-maestra.css" crc="4245225831" ref="contacto:index:nosotros:relaciones"/>
+    <file name="master_cliente.css" crc="436899133" ref="clienteconfiguracion:fiadorform:clientesolicitud:movimientoscuenta:cliente:tarjetaform:pagoprestamo:clienteversolicitudes:politicaintereses"/>
+    <file name="login.css" crc="4144537566" ref="login"/>
+    <file name="clienteconfiguracion.css" crc="77418940" ref="clienteconfiguracion"/>
+    <file name="iefonts_clienteconfiguracion.css" crc="500334831" ref="clienteconfiguracion"/>
+    <file name="contacto.css" crc="4209921571" ref="contacto"/>
+    <file name="nomq_contacto.css" crc="4190778747" ref="contacto"/>
+    <file name="fiadorform.css" crc="4160597900" ref="fiadorform"/>
+    <file name="iefonts_fiadorform.css" crc="3957862226" ref="fiadorform"/>
+    <file name="index.css" crc="4224475534" ref="index"/>
+    <file name="nomq_index.css" crc="170637329" ref="index"/>
+    <file name="register.css" crc="67701679" ref="register"/>
+    <file name="nosotros.css" crc="4163880985" ref="nosotros"/>
+    <file name="nomq_nosotros.css" crc="4217164592" ref="nosotros"/>
+    <file name="clientesolicitud.css" crc="3762511508" ref="clientesolicitud"/>
+    <file name="iefonts_clientesolicitud.css" crc="4074702962" ref="clientesolicitud"/>
+    <file name="relaciones.css" crc="4018521126" ref="relaciones"/>
+    <file name="nomq_relaciones.css" crc="353960171" ref="relaciones"/>
+    <file name="movimientoscuenta.css" crc="354840262" ref="movimientoscuenta"/>
+    <file name="cliente.css" crc="4132786697" ref="cliente"/>
+    <file name="tarjetaform.css" crc="285559792" ref="tarjetaform"/>
+    <file name="iefonts_tarjetaform.css" crc="71269723" ref="tarjetaform"/>
+    <file name="pagoprestamo.css" crc="267952632" ref="pagoprestamo"/>
+    <file name="iefonts_pagoprestamo.css" crc="123589227" ref="pagoprestamo"/>
+    <file name="clienteversolicitudes.css" crc="428746698" ref="clienteversolicitudes"/>
+    <file name="politicaintereses.css" crc="219495583" ref="politicaintereses"/>
+  </folder>
+  <folder name="assets">
+    <file name="business-background-9.jpeg" crc="244820960" seo="true" mt="1518396476000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:nosotros:contacto:relaciones:login:register:cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses"/>
+    <file name="museutils.js" crc="3803043152" ref="index:nosotros:contacto:relaciones:login:register:cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses"/>
+    <file name="whatinput.js" crc="86476730" ref="index:nosotros:contacto:relaciones:login:register:cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses"/>
+    <file name="museconfig.js" crc="380897831" ref="index:nosotros:contacto:relaciones:login:register:cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:relaciones:login:register:cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:nosotros:contacto:relaciones:login:register:cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses"/>
+    <file name="webpro.js" crc="242022427" ref="index:nosotros:contacto:relaciones:login:register:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="index"/>
+    <file name="touchswipe.js" crc="4066113679" ref="index"/>
+    <file name="musewpdisclosure.js" crc="119288625" ref="index:nosotros:contacto:relaciones:politicaintereses"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:nosotros:contacto:relaciones"/>
+    <file name="require.js" crc="4157109226" ref="index:nosotros:contacto:relaciones:login:register:cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses"/>
+    <file name="form_check.php" crc="147359589" ref="contacto:register"/>
+    <file name="form_throttle.php" crc="93986428" ref="contacto:register"/>
+    <file name="form_process.php" crc="3851993751" ref="contacto:register"/>
+    <file name="form-u10223.php" crc="3793170238" ref="contacto"/>
+    <file name="form-u12561.php" crc="3923838496" ref="login"/>
+    <file name="form-u11613.php" crc="363000812" ref="register"/>
+    <file name="form-u14685.php" crc="46169228" ref="clientesolicitud"/>
+    <file name="form-u14269.php" crc="4071797268" ref="fiadorform"/>
+    <file name="form-u14537.php" crc="4026913460" ref="tarjetaform"/>
+    <file name="form-u15538.php" crc="132997668" ref="pagoprestamo"/>
+    <file name="form-u17367.php" crc="366926105" ref="movimientoscuenta"/>
+    <file name="form-u16868.php" crc="457933002" ref="clienteconfiguracion"/>
+    <file name="form-u17535.php" crc="3936578120" ref="clienteversolicitudes"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="3941003197" ref="index:cliente:register"/>
+    <file name="logo_facebook.svg" crc="3886503056" seo="true" ref="index:nosotros:contacto:relaciones:login:register:cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses">
+      <caption webpage="tarjetaform" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="politicaintereses" alt=""/>
+      <caption webpage="login" alt=""/>
+      <caption webpage="fiadorform" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="clienteconfiguracion" alt=""/>
+      <caption webpage="relaciones" alt=""/>
+      <caption webpage="relaciones" alt=""/>
+      <caption webpage="relaciones" alt=""/>
+      <caption webpage="nosotros" alt=""/>
+      <caption webpage="nosotros" alt=""/>
+      <caption webpage="nosotros" alt=""/>
+      <caption webpage="clienteversolicitudes" alt=""/>
+      <caption webpage="register" alt=""/>
+      <caption webpage="movimientoscuenta" alt=""/>
+      <caption webpage="pagoprestamo" alt=""/>
+      <caption webpage="cliente" alt=""/>
+    </file>
+    <file name="logo_facebook_poster_.png" crc="4113105136" ref="index:cliente:register"/>
+    <file name="logo_twitter.svg" crc="3780217309" seo="true" ref="index:nosotros:contacto:relaciones:login:register:cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses">
+      <caption webpage="tarjetaform" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="politicaintereses" alt=""/>
+      <caption webpage="login" alt=""/>
+      <caption webpage="fiadorform" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="clienteconfiguracion" alt=""/>
+      <caption webpage="relaciones" alt=""/>
+      <caption webpage="relaciones" alt=""/>
+      <caption webpage="relaciones" alt=""/>
+      <caption webpage="nosotros" alt=""/>
+      <caption webpage="nosotros" alt=""/>
+      <caption webpage="nosotros" alt=""/>
+      <caption webpage="clienteversolicitudes" alt=""/>
+      <caption webpage="register" alt=""/>
+      <caption webpage="movimientoscuenta" alt=""/>
+      <caption webpage="pagoprestamo" alt=""/>
+      <caption webpage="cliente" alt=""/>
+    </file>
+    <file name="logo_twitter_poster_.png" crc="249498307" ref="index:cliente:register"/>
+    <file name="logob-logo.png" crc="40328295" ref="index:cliente:clientesolicitud">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="cliente" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+    </file>
+    <file name="finantech-economic-crop-u1932.png" crc="48043819" seo="true" ref="index:nosotros:contacto:relaciones">
+      <caption webpage="index" alt=""/>
+      <caption webpage="nosotros" alt=""/>
+      <caption webpage="relaciones" alt=""/>
+      <caption webpage="contacto" alt=""/>
+    </file>
+    <file name="casa-crop-u5414.jpg" crc="4232493814" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:nosotros:contacto:relaciones"/>
+    <file name="0204bc690f9aecaab423c016cc1ba603-crop-u5416.jpg" crc="7351838" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="videorista_v72-crop-u5410.jpg" crc="249144940" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="729072-crop-u5412.jpg" crc="257502054" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="business-background-9.jpg" crc="244820960" ref="index:login:register:politicaintereses">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="register" alt=""/>
+      <caption webpage="politicaintereses" alt=""/>
+      <caption webpage="login" alt=""/>
+    </file>
+    <file name="abrir.svg" crc="3881540917" ref="index"/>
+    <file name="abrir_poster_u3537.png" crc="229763918" ref="index"/>
+    <file name="cerrar.svg" crc="94584885" ref="index"/>
+    <file name="cerrar_poster_u3596.png" crc="66643228" ref="index"/>
+    <file name="casa-crop-u2054.jpg" crc="472551700" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="0204bc690f9aecaab423c016cc1ba603-crop-u2144.jpg" crc="4015523378" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="videorista_v72-crop-u2171.jpg" crc="181390108" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="729072-crop-u2198.jpg" crc="3799761939" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="casa-crop-u6860.jpg" crc="4043002610" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="0204bc690f9aecaab423c016cc1ba603-crop-u7015.jpg" crc="3804489560" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="videorista_v72-crop-u7064.jpg" crc="3772095879" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="729072-crop-u7113.jpg" crc="232688254" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="business-background-91000x563.jpg" crc="343716742" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="finanzas-crop-u10175.jpg" crc="410234137" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="road338x224.jpg" crc="4027189453" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="cactus251x167.jpg" crc="214754098" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="trees251x167.jpg" crc="3879336764" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="finanzas-crop-u101752.jpg" crc="3984942749" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="road.jpg" crc="4036480073" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="cactus135x90.jpg" crc="159521841" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="trees135x90.jpg" crc="3834946433" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="finanzas-crop-u101753.jpg" crc="3881039050" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="road95x63.jpg" crc="531805461" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="cactus70x47.jpg" crc="4097355166" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="trees70x47.jpg" crc="4119857805" seo="true" ref="nosotros">
+      <caption webpage="nosotros" alt=""/>
+    </file>
+    <file name="sitek-soporte-crop-u3251.jpg" crc="3926079834" seo="true" ref="contacto">
+      <caption webpage="contacto" alt=""/>
+    </file>
+    <file name="sitek-soporte-crop-u32512.jpg" crc="4176140376" seo="true" ref="contacto">
+      <caption webpage="contacto" alt=""/>
+    </file>
+    <file name="sitek-soporte-crop-u32513.jpg" crc="366917552" seo="true" ref="contacto">
+      <caption webpage="contacto" alt=""/>
+    </file>
+    <file name="img02-crop-u2985.jpg" crc="4027059041" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u3153.jpg" crc="4027059041" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u3172.jpg" crc="4027059041" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u3176.jpg" crc="4027059041" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u3210.jpg" crc="4027059041" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u3214.jpg" crc="4027059041" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="flux-financiera-los-rolling-stones-del-factoraje-en-mexico.jpg" crc="526226239" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+      <caption webpage="relaciones" alt=""/>
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u29852.jpg" crc="4001929369" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u31722.jpg" crc="4001929369" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u32102.jpg" crc="4001929369" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u31532.jpg" crc="4001929369" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u31762.jpg" crc="4001929369" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u32142.jpg" crc="4001929369" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u29853.jpg" crc="426347748" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u31533.jpg" crc="426347748" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u31723.jpg" crc="426347748" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u31763.jpg" crc="426347748" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u32103.jpg" crc="426347748" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="img02-crop-u32143.jpg" crc="426347748" seo="true" ref="relaciones">
+      <caption webpage="relaciones" alt=""/>
+    </file>
+    <file name="radiobuttonunchecked.png" crc="3976871150" ref="register:clientesolicitud:clienteconfiguracion:fiadorform">
+      <caption webpage="register" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+    </file>
+    <file name="radiobuttonuncheckedrollover.png" crc="4276313674" ref="register:clientesolicitud:clienteconfiguracion:fiadorform">
+      <caption webpage="register" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+    </file>
+    <file name="radiobuttonuncheckedmousedown.png" crc="54863585" ref="register:clientesolicitud:clienteconfiguracion:fiadorform">
+      <caption webpage="register" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+    </file>
+    <file name="radiobuttonchecked.png" crc="4193302265" ref="register:clientesolicitud:clienteconfiguracion:fiadorform">
+      <caption webpage="register" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+    </file>
+    <file name="radiobuttoncheckedrollover.png" crc="88928956" ref="register:clientesolicitud:clienteconfiguracion:fiadorform">
+      <caption webpage="register" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+    </file>
+    <file name="radiobuttoncheckedmousedown.png" crc="4280357799" ref="register:clientesolicitud:clienteconfiguracion:fiadorform">
+      <caption webpage="register" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+    </file>
+    <file name="barra2.png" crc="4136747240" ref="cliente:clientesolicitud">
+      <caption webpage="cliente" alt=""/>
+      <caption webpage="cliente" alt=""/>
+      <caption webpage="cliente" alt=""/>
+      <caption webpage="cliente" alt=""/>
+      <caption webpage="cliente" alt=""/>
+      <caption webpage="cliente" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+    </file>
+    <file name="finantech-economic-crop-u13482.png" crc="48043819" seo="true" ref="cliente">
+      <caption webpage="cliente" alt=""/>
+    </file>
+    <file name="finantech-economic-crop-u12666.png" crc="3962287299" seo="true" ref="cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses">
+      <caption webpage="movimientoscuenta" alt=""/>
+      <caption webpage="tarjetaform" alt=""/>
+      <caption webpage="clienteconfiguracion" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+      <caption webpage="clienteversolicitudes" alt=""/>
+      <caption webpage="politicaintereses" alt=""/>
+      <caption webpage="pagoprestamo" alt=""/>
+      <caption webpage="cliente" alt=""/>
+      <caption webpage="fiadorform" alt=""/>
+    </file>
+    <file name="llave-inglesa-fendas.png" crc="213872345" seo="true" ref="cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:movimientoscuenta:clienteconfiguracion:clienteversolicitudes:politicaintereses">
+      <caption webpage="movimientoscuenta" alt=""/>
+      <caption webpage="tarjetaform" alt=""/>
+      <caption webpage="clienteconfiguracion" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+      <caption webpage="clienteversolicitudes" alt=""/>
+      <caption webpage="politicaintereses" alt=""/>
+      <caption webpage="pagoprestamo" alt=""/>
+      <caption webpage="cliente" alt=""/>
+      <caption webpage="fiadorform" alt=""/>
+    </file>
+    <file name="administracionfinanzas-1024x682.jpg" crc="74523436" ref="cliente:clientesolicitud:fiadorform:tarjetaform:pagoprestamo:clienteconfiguracion:clienteversolicitudes">
+      <caption webpage="tarjetaform" alt=""/>
+      <caption webpage="clienteconfiguracion" alt=""/>
+      <caption webpage="clientesolicitud" alt=""/>
+      <caption webpage="clienteversolicitudes" alt=""/>
+      <caption webpage="pagoprestamo" alt=""/>
+      <caption webpage="cliente" alt=""/>
+      <caption webpage="fiadorform" alt=""/>
+    </file>
+    <file name="0204bc690f9aecaab423c016cc1ba603.jpg" crc="271162766" ref="movimientoscuenta">
+      <caption webpage="movimientoscuenta" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="489160210" seo="true" mt="1521393652572" redirect="true"/>
+  <file name="nosotros.html" crc="81001133" seo="true" mt="1521323557198" redirect="true"/>
+  <file name="contacto.html" crc="281432789" seo="true" mt="1521323557198" redirect="true"/>
+  <file name="relaciones.html" crc="368104343" seo="true" mt="1521323557198" redirect="true"/>
+  <file name="login.html" crc="4117886070" seo="true" mt="1522000845903" redirect="true"/>
+  <file name="register.html" crc="3763314555" seo="true" mt="1522288181913" redirect="true"/>
+  <file name="cliente.html" crc="467864513" seo="true" mt="1522286409003" redirect="true"/>
+  <file name="clientesolicitud.html" crc="3772856337" seo="true" mt="1522288256658" redirect="true"/>
+  <file name="fiadorform.html" crc="459361145" seo="true" mt="1522288638806" redirect="true"/>
+  <file name="tarjetaform.html" crc="138282586" seo="true" mt="1522288756563" redirect="true"/>
+  <file name="pagoprestamo.html" crc="252017743" seo="true" mt="1522289345841" redirect="true"/>
+  <file name="movimientoscuenta.html" crc="99323630" seo="true" mt="1522286409003" redirect="true"/>
+  <file name="clienteconfiguracion.html" crc="391789589" seo="true" mt="1522288285189" redirect="true"/>
+  <file name="clienteversolicitudes.html" crc="4048957550" seo="true" mt="1522286409003" redirect="true"/>
+  <file name="politicaintereses.html" crc="3849767971" seo="true" mt="1522286705844" redirect="true"/>
+</manifest>
