@@ -7,9 +7,9 @@ namespace Economic.Test
     {
         static void Main(string[] args)
         {
-            EntidadesTipoRepository rep = new EntidadesTipoRepository();
+            EntidadesRepository rep = new EntidadesRepository();
 
-            Console.WriteLine(rep.Find(x => x.Id == 1).Descripcion);
+            Console.WriteLine(rep.Find(x => x.Id == 1).Apellido);
             
             Console.ReadKey();
         }
