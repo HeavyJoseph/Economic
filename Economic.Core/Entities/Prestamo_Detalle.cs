@@ -3,7 +3,7 @@ namespace Economic.Core.Entities
 {
     public class Prestamo_Detalle : BaseEntity
     {
-        public int Prestamo_Master_ID { get; set; }
+        public int Prestamo_Master_Id { get; set; }
         public System.DateTime Fecha_Vencimiento { get; set; }
         public System.DateTime Fecha_Pago { get; set; }
         public int Cuota_Numero { get; set; }

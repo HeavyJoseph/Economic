@@ -1,9 +1,9 @@
 ﻿
 namespace Economic.Core.Map
 {
-    public class TargetasPagoMap : BaseMap<Entities.TargetasPago>
+    public class TargetasMap : BaseMap<Entities.Targetas>
     {
-        public TargetasPagoMap()
+        public TargetasMap()
         {
             this.Property(x => x.EntidadId).HasColumnName("EntidadId");
             this.Property(x => x.Numero).HasColumnName("Numero");

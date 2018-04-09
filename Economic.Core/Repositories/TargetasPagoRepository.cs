@@ -1,9 +1,9 @@
 ﻿
 namespace Economic.Core.Repositories
 {
-    public class TargetasPagoRepository : BaseRepository<Entities.TargetasPago>
+    public class TargetasPagoRepository : BaseRepository<Entities.Targetas>
     {
-        public void AddTargeta(Entities.TargetasPago nuevaTargeta)
+        public void AddTargeta(Entities.Targetas nuevaTargeta)
         {
             this.Add(nuevaTargeta);
             this.SaveChanges();
@@ -15,7 +15,7 @@ namespace Economic.Core.Repositories
             this.SaveChanges();
         }
 
-        public void UpdateTargeta(Entities.TargetasPago targeta)
+        public void UpdateTargeta(Entities.Targetas targeta)
         {
             this.Update(targeta);
             this.SaveChanges();

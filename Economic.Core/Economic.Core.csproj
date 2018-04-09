@@ -58,7 +58,8 @@
     <Compile Include="Entities\Prestamos_Tipos.cs" />
     <Compile Include="Entities\Prestamo_Detalle.cs" />
     <Compile Include="Entities\Prestamo_Master.cs" />
-    <Compile Include="Entities\TargetasPago.cs" />
+    <Compile Include="Entities\Prestamo_Solicitud.cs" />
+    <Compile Include="Entities\Targetas.cs" />
     <Compile Include="Exceptions\BaseException.cs" />
     <Compile Include="Exceptions\BaseRepositoryException.cs" />
     <Compile Include="Map\BaseMap.cs" />
@@ -70,7 +71,8 @@
     <Compile Include="Map\PrestamoMasterMap.cs" />
     <Compile Include="Map\PrestamosDetalleEstadosMap.cs" />
     <Compile Include="Map\PrestamosEstadosMap.cs" />
-    <Compile Include="Map\TargetasPagoMap.cs" />
+    <Compile Include="Map\PrestamoSolicitudMap.cs" />
+    <Compile Include="Map\TargetasMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\EntidadesRepository.cs" />

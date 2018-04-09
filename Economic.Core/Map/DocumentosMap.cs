@@ -11,6 +11,7 @@ namespace Economic.Core.Map
             this.Property(x => x.CaraB).HasColumnName("CaraB");
             this.Property(x => x.Descripcion).HasColumnName("Descripcion");
             this.Property(x => x.EntidadId).HasColumnName("EntidadId");
+            this.Property(x => x.Prestamo_MasterId).HasColumnName("Prestamo_MasterId");
             this.ToTable("Documentos", "WEB");
         }
     }

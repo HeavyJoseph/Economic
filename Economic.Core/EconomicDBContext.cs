@@ -18,7 +18,7 @@ namespace Economic.Core
         public DbSet<Entities.Prestamos_Estados> Prestamos_Estados { get; set; }
         public DbSet<Entities.Prestamo_Detalle> Prestamo_Detalle { get; set; }
         public DbSet<Entities.Prestamo_Master> Prestamo_Master { get; set; }
-        public DbSet<Entities.TargetasPago> TargetasPago { get; set; }
+        public DbSet<Entities.Targetas> TargetasPago { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -30,7 +30,7 @@ namespace Economic.Core
             modelBuilder.Configurations.Add(new Map.PrestamoMasterMap());
             modelBuilder.Configurations.Add(new Map.PrestamosDetalleEstadosMap());
             modelBuilder.Configurations.Add(new Map.PrestamosEstadosMap());
-            modelBuilder.Configurations.Add(new Map.TargetasPagoMap());
+            modelBuilder.Configurations.Add(new Map.TargetasMap());
         }
     }
 }
