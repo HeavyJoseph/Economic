@@ -31,6 +31,8 @@ namespace Economic.Core
             modelBuilder.Configurations.Add(new Map.PrestamosDetalleEstadosMap());
             modelBuilder.Configurations.Add(new Map.PrestamosEstadosMap());
             modelBuilder.Configurations.Add(new Map.TargetasMap());
+            modelBuilder.Configurations.Add(new Map.PrestamoSolicitudMap());
+            modelBuilder.Configurations.Add(new Map.TargetasMap());
         }
     }
 }

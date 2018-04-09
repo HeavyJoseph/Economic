@@ -1,7 +1,7 @@
 ﻿
 namespace Economic.Core.Repositories
 {
-    public class TargetasPagoRepository : BaseRepository<Entities.Targetas>
+    public class TargetasRepository : BaseRepository<Entities.Targetas>
     {
         public void AddTargeta(Entities.Targetas nuevaTargeta)
         {
