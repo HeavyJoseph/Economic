@@ -76,7 +76,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\EntidadesRepository.cs" />
-    <Compile Include="Repositories\TargetasPagoRepository.cs" />
+    <Compile Include="Repositories\PrestamoDetalleRepository.cs" />
+    <Compile Include="Repositories\PrestamoMasterRepository.cs" />
+    <Compile Include="Repositories\TargetasRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
