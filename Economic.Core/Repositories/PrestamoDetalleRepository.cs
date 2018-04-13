@@ -28,8 +28,14 @@ namespace Economic.Core.Repositories
 
             for (var i = 0; i<numeroCuotas; i++)
             {
-                //
+                tablaAmortizacion.Add(new Entities.Prestamo_Detalle {
+                    Cuota_Numero = i,
+                    Interez = capital*tasa/100,
+                    Saldo = capital*(tasa/100)(1+tasa/100),
+                });
             }
+
+            this.context.SaveChanges();
         }
     }
 }
