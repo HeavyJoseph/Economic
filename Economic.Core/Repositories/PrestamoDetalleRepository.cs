@@ -8,19 +8,28 @@ namespace Economic.Core.Repositories
     {
         public IEnumerable<Entities.Prestamo_Detalle> GetDetalleByIdMaster(int IdMaster)
         {
-            return this.Select(x => x.Prestamo_Master_Id == IdMaster);
+            return this.Select(x => x.Prestamo_Master_Id == IdMaster) as IEnumerable<Entities.Prestamo_Detalle>;
         }
 
         public void CalcularAmortizacion(int IdMaster)
         {
             var queryMaster = this.context.Prestamo_Master as IQueryable<Entities.Prestamo_Master>;
-
+            
             var master = (from a in queryMaster
                           where a.Id == IdMaster
                           select a
                           ).FirstOrDefault();
 
-            //
+            var numeroCuotas = master.Numero_Cuotas;
+            var capital = master.Importe;
+            var tasa = master.Interez_Porciento;
+
+            var tablaAmortizacion = new List<Entities.Prestamo_Detalle>();
+
+            for (var i = 0; i<numeroCuotas; i++)
+            {
+                //
+            }
         }
     }
 }
