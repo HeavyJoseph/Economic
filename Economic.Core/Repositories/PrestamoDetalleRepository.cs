@@ -22,16 +22,18 @@ namespace Economic.Core.Repositories
 
             var numeroCuotas = master.Numero_Cuotas;
             var capital = master.Importe;
-            var tasa = master.Interez_Porciento;
-
-            var tablaAmortizacion = new List<Entities.Prestamo_Detalle>();
-
+            var redito = master.Interez_Porciento/100;
+            
             for (var i = 0; i<numeroCuotas; i++)
             {
-                tablaAmortizacion.Add(new Entities.Prestamo_Detalle {
+                var interez = capital * redito;
+                var saldo = capital * redito * (1 + redito) ^ numeroCuotas / ((1 + redito) ^ numeroCuotas + 1);
+
+                this.context.Prestamo_Detalle.Add(new Entities.Prestamo_Detalle {
                     Cuota_Numero = i,
-                    Interez = capital*tasa/100,
-                    Saldo = capital*(tasa/100)(1+tasa/100),
+                    Interez = interez,
+                    Saldo = ,
+                    Amortizacion = 
                 });
             }
 
